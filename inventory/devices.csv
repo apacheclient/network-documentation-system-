@@ -1,0 +1,9 @@
+device_id,hostname,device_type,brand,model,ip_address,location,total_ports,uplink_ports,notes
+SW-01,core-switch-01,Switch,Cisco,Catalyst 2960,192.168.1.2,Main Closet - Rack 1,48,2,Core switch for office
+SW-02,access-switch-01,Switch,Cisco,Catalyst 2960,192.168.1.3,Main Closet - Rack 1,24,1,Access switch for cubicles
+SW-03,access-switch-02,Switch,Cisco,Catalyst 2960,192.168.1.4,Floor 2 Closet,24,1,Floor 2 access switch
+RT-01,edge-router-01,Router,Cisco,ISR 4321,192.168.1.1,Main Closet - Rack 1,4,1,Main internet edge router
+AP-01,wifi-ap-lobby,Access Point,Ubiquiti,U6-LR,192.168.1.10,Lobby Ceiling,0,1,Lobby wireless coverage
+AP-02,wifi-ap-office,Access Point,Ubiquiti,U6-LR,192.168.1.11,Open Office Ceiling,0,1,Main office wireless
+FW-01,firewall-01,Firewall,Fortinet,FortiGate 60F,192.168.1.254,Main Closet - Rack 1,8,1,Primary firewall
+SRV-01,file-server-01,Server,Dell,PowerEdge R740,192.168.1.20,Main Closet - Rack 2,2,1,Internal file server

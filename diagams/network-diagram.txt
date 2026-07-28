@@ -1,0 +1,24 @@
+                        Internet
+                           |
+                     [Edge Router]
+                      RT-01
+                     192.168.1.1
+                           |
+                     [Firewall]
+                      FW-01
+                   192.168.1.254
+                           |
+                    [Core Switch]
+                      SW-01
+                     192.168.1.2
+                    /    |     \
+                   /     |      \
+          [Access SW] [Access SW] [File Server]
+            SW-02       SW-03        SRV-01
+         192.168.1.3  192.168.1.4  192.168.1.20
+              |            |
+         Cubicles       Floor 2
+
+Also connected to Core Switch:
+- AP-01 (Lobby)    192.168.1.10
+- AP-02 (Office)   192.168.1.11
