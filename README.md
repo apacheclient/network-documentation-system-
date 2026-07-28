@@ -28,7 +28,8 @@ network-documentation-system/
 │   ├── search_device.py
 │   └── export_report.py
 ├── diagrams/
-├── requirements.txt
+    ├── network-diagram.txt
+├── LICENSE
 └── README.md
 
 ## Features
