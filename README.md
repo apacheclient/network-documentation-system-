@@ -11,26 +11,6 @@ This project demonstrates real-world skills used by Help Desk, Tech Specialist, 
 - Basic troubleshooting processes
 - Lightweight automation scripts
 
-## Project Structure
-
-network-documentation-system/
-├── docs/
-│   ├── 01-network-overview.md
-│   ├── 02-ip-addressing-plan.md
-│   ├── 03-device-naming-standards.md
-│   ├── 04-port-and-cable-mapping.md
-│   └── 05-troubleshooting-notes.md
-├── inventory/
-│   ├── devices.csv
-│   └── inventory_report.txt          ← created by the export script
-├── scripts/
-│   ├── view_inventory.py
-│   ├── search_device.py
-│   └── export_report.py
-├── diagrams/
-    ├── network-diagram.txt
-├── LICENSE
-└── README.md
 
 ## Features
 
